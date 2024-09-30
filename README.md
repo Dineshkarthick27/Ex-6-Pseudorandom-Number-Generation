@@ -5,9 +5,13 @@ To implement Pseudorandom Number Generation using the standard library functions
 
 ## Algorithm:
 1.Seed the random number generator using srand() to initialize it with a starting value.
+
 2.Generate pseudorandom numbers using rand().
+
 3.To ensure different results on each execution, seed srand() with a dynamic value like the current time (time(NULL)).
+
 4.Use modulo operation to limit the range of generated numbers.
+
 
 ## Program:
 ```
